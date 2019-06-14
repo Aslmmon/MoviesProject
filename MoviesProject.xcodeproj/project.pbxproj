@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1929C5F225202F2008E707D /* favouritesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1929C5E225202F2008E707D /* favouritesTableViewController.m */; };
 		D192C2DA224B5D8700D41472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D192C2D9224B5D8700D41472 /* Foundation.framework */; };
 		D192C2DC224B5D8700D41472 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D192C2DB224B5D8700D41472 /* CoreGraphics.framework */; };
 		D192C2DE224B5D8700D41472 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D192C2DD224B5D8700D41472 /* UIKit.framework */; };
@@ -21,6 +22,13 @@
 		D192C2FB224B5D8800D41472 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D192C2DD224B5D8700D41472 /* UIKit.framework */; };
 		D192C303224B5D8800D41472 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D192C301224B5D8800D41472 /* InfoPlist.strings */; };
 		D192C305224B5D8800D41472 /* MoviesProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D192C304224B5D8800D41472 /* MoviesProjectTests.m */; };
+		D192C310224B5E8B00D41472 /* myMoviesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D192C30F224B5E8B00D41472 /* myMoviesTableViewController.m */; };
+		D192C313224BA3D300D41472 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D192C312224BA3D300D41472 /* DetailsViewController.m */; };
+		D192C316224BB31A00D41472 /* MoviesPojo.m in Sources */ = {isa = PBXBuildFile; fileRef = D192C315224BB31A00D41472 /* MoviesPojo.m */; };
+		D196CEAB224E9A6000927BBD /* DbHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D196CEAA224E9A6000927BBD /* DbHelper.m */; };
+		D196CEAD224E9CF100927BBD /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D196CEAC224E9CF100927BBD /* libsqlite3.dylib */; };
+		D19FFC61225C986300BCE06D /* videoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19FFC60225C986300BCE06D /* videoPlayerViewController.m */; };
+		D1A03FA822550FB900A0CF08 /* myMoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A03FA722550FB900A0CF08 /* myMoviesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D1929C5D225202F2008E707D /* favouritesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = favouritesTableViewController.h; sourceTree = "<group>"; };
+		D1929C5E225202F2008E707D /* favouritesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = favouritesTableViewController.m; sourceTree = "<group>"; };
 		D192C2D6224B5D8700D41472 /* MoviesProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D192C2D9224B5D8700D41472 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D192C2DB224B5D8700D41472 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +63,19 @@
 		D192C300224B5D8800D41472 /* MoviesProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoviesProjectTests-Info.plist"; sourceTree = "<group>"; };
 		D192C302224B5D8800D41472 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D192C304224B5D8800D41472 /* MoviesProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesProjectTests.m; sourceTree = "<group>"; };
+		D192C30E224B5E8B00D41472 /* myMoviesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myMoviesTableViewController.h; sourceTree = "<group>"; };
+		D192C30F224B5E8B00D41472 /* myMoviesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myMoviesTableViewController.m; sourceTree = "<group>"; };
+		D192C311224BA3D300D41472 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		D192C312224BA3D300D41472 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		D192C314224BB31A00D41472 /* MoviesPojo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesPojo.h; sourceTree = "<group>"; };
+		D192C315224BB31A00D41472 /* MoviesPojo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesPojo.m; sourceTree = "<group>"; };
+		D196CEA9224E9A6000927BBD /* DbHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DbHelper.h; sourceTree = "<group>"; };
+		D196CEAA224E9A6000927BBD /* DbHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DbHelper.m; sourceTree = "<group>"; };
+		D196CEAC224E9CF100927BBD /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D19FFC5F225C986300BCE06D /* videoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoPlayerViewController.h; sourceTree = "<group>"; };
+		D19FFC60225C986300BCE06D /* videoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videoPlayerViewController.m; sourceTree = "<group>"; };
+		D1A03FA622550FB900A0CF08 /* myMoviesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myMoviesViewController.h; path = ../myMoviesViewController.h; sourceTree = "<group>"; };
+		D1A03FA722550FB900A0CF08 /* myMoviesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myMoviesViewController.m; path = ../myMoviesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D196CEAD224E9CF100927BBD /* libsqlite3.dylib in Frameworks */,
 				D192C2DC224B5D8700D41472 /* CoreGraphics.framework in Frameworks */,
 				D192C2DE224B5D8700D41472 /* UIKit.framework in Frameworks */,
 				D192C2DA224B5D8700D41472 /* Foundation.framework in Frameworks */,
@@ -82,8 +106,10 @@
 		D192C2CD224B5D8700D41472 = {
 			isa = PBXGroup;
 			children = (
-				D192C2DF224B5D8700D41472 /* MoviesProject */,
+				D19FFC5F225C986300BCE06D /* videoPlayerViewController.h */,
+				D19FFC60225C986300BCE06D /* videoPlayerViewController.m */,
 				D192C2FE224B5D8800D41472 /* MoviesProjectTests */,
+				D192C2DF224B5D8700D41472 /* MoviesProject */,
 				D192C2D8224B5D8700D41472 /* Frameworks */,
 				D192C2D7224B5D8700D41472 /* Products */,
 			);
@@ -101,6 +127,7 @@
 		D192C2D8224B5D8700D41472 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D196CEAC224E9CF100927BBD /* libsqlite3.dylib */,
 				D192C2D9224B5D8700D41472 /* Foundation.framework */,
 				D192C2DB224B5D8700D41472 /* CoreGraphics.framework */,
 				D192C2DD224B5D8700D41472 /* UIKit.framework */,
@@ -112,13 +139,24 @@
 		D192C2DF224B5D8700D41472 /* MoviesProject */ = {
 			isa = PBXGroup;
 			children = (
+				D196CEA8224E9A4700927BBD /* DBhelper */,
+				D192C2E0224B5D8700D41472 /* Supporting Files */,
+				D1A03FA622550FB900A0CF08 /* myMoviesViewController.h */,
+				D1A03FA722550FB900A0CF08 /* myMoviesViewController.m */,
 				D192C2E8224B5D8700D41472 /* JETSAppDelegate.h */,
 				D192C2E9224B5D8700D41472 /* JETSAppDelegate.m */,
 				D192C2EB224B5D8700D41472 /* Main.storyboard */,
 				D192C2EE224B5D8700D41472 /* JETSViewController.h */,
 				D192C2EF224B5D8700D41472 /* JETSViewController.m */,
 				D192C2F1224B5D8700D41472 /* Images.xcassets */,
-				D192C2E0224B5D8700D41472 /* Supporting Files */,
+				D192C30E224B5E8B00D41472 /* myMoviesTableViewController.h */,
+				D192C30F224B5E8B00D41472 /* myMoviesTableViewController.m */,
+				D192C311224BA3D300D41472 /* DetailsViewController.h */,
+				D192C312224BA3D300D41472 /* DetailsViewController.m */,
+				D192C314224BB31A00D41472 /* MoviesPojo.h */,
+				D192C315224BB31A00D41472 /* MoviesPojo.m */,
+				D1929C5D225202F2008E707D /* favouritesTableViewController.h */,
+				D1929C5E225202F2008E707D /* favouritesTableViewController.m */,
 			);
 			path = MoviesProject;
 			sourceTree = "<group>";
@@ -137,7 +175,6 @@
 		D192C2FE224B5D8800D41472 /* MoviesProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				D192C304224B5D8800D41472 /* MoviesProjectTests.m */,
 				D192C2FF224B5D8800D41472 /* Supporting Files */,
 			);
 			path = MoviesProjectTests;
@@ -146,10 +183,20 @@
 		D192C2FF224B5D8800D41472 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D192C304224B5D8800D41472 /* MoviesProjectTests.m */,
 				D192C300224B5D8800D41472 /* MoviesProjectTests-Info.plist */,
 				D192C301224B5D8800D41472 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D196CEA8224E9A4700927BBD /* DBhelper */ = {
+			isa = PBXGroup;
+			children = (
+				D196CEA9224E9A6000927BBD /* DbHelper.h */,
+				D196CEAA224E9A6000927BBD /* DbHelper.m */,
+			);
+			name = DBhelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D192C316224BB31A00D41472 /* MoviesPojo.m in Sources */,
+				D19FFC61225C986300BCE06D /* videoPlayerViewController.m in Sources */,
+				D1A03FA822550FB900A0CF08 /* myMoviesViewController.m in Sources */,
+				D1929C5F225202F2008E707D /* favouritesTableViewController.m in Sources */,
+				D192C310224B5E8B00D41472 /* myMoviesTableViewController.m in Sources */,
+				D192C313224BA3D300D41472 /* DetailsViewController.m in Sources */,
+				D196CEAB224E9A6000927BBD /* DbHelper.m in Sources */,
 				D192C2F0224B5D8700D41472 /* JETSViewController.m in Sources */,
 				D192C2EA224B5D8700D41472 /* JETSAppDelegate.m in Sources */,
 				D192C2E6224B5D8700D41472 /* main.m in Sources */,
@@ -461,6 +515,7 @@
 				D192C30A224B5D8800D41472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D192C30B224B5D8800D41472 /* Build configuration list for PBXNativeTarget "MoviesProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +524,7 @@
 				D192C30D224B5D8800D41472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
